@@ -2,7 +2,22 @@ fileFormatVersion: 2
 guid: a5f17d8cfa0d938459327bcbea1a5833
 ScriptedImporter:
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: Bite
+    second: {fileID: 7400000, guid: 79560d69c7429cb4fb17e510be5b11a4, type: 2}
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: Idle
+    second: {fileID: 7400000, guid: 77130676a87dea1429cd50084ecee8cc, type: 2}
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: Move
+    second: {fileID: 7400000, guid: aec8e7df8acd8344e85969e3bc918465, type: 2}
   serializedVersion: 2
   userData: 
   assetBundleName: 
@@ -35,7 +50,7 @@ ScriptedImporter:
     spriteMeshType: 1
     alignment: 0
     spritePivot: {x: 0.5, y: 0.5}
-    spritePixelsToUnits: 100
+    spritePixelsToUnits: 32
     spriteBorder: {x: 0, y: 0, z: 0, w: 0}
     spriteGenerateFallbackPhysicsShape: 0
     generateCubemap: 6
@@ -75,7 +90,7 @@ ScriptedImporter:
     importHiddenLayers: 0
     layerImportMode: 1
     defaultPivotSpace: 0
-    defaultPivotAlignment: 7
+    defaultPivotAlignment: 0
     customPivotPosition: {x: 0.5, y: 0.5}
     mosaicPadding: 4
     spritePadding: 0
@@ -88,7 +103,7 @@ ScriptedImporter:
     importHiddenLayers: 0
     layerImportMode: 1
     defaultPivotSpace: 0
-    defaultPivotAlignment: 7
+    defaultPivotAlignment: 0
     customPivotPosition: {x: 0.5, y: 0.5}
     mosaicPadding: 4
     spritePadding: 0
@@ -97,7 +112,7 @@ ScriptedImporter:
     addSortingGroup: 1
     addShadowCasters: 0
   importFileNodeState: 1
-  platformSettingsDirtyTick: 0
+  platformSettingsDirtyTick: 638579798073331394
   textureAssetName: 
   singleSpriteImportData:
   - name: 
@@ -123,7 +138,7 @@ ScriptedImporter:
   animatedSpriteImportData:
   - name: Dogge_Frame_0
     originalName: 
-    pivot: {x: 0.4181818, y: -0.081081085}
+    pivot: {x: 0.4181818, y: 0.7837838}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -143,7 +158,7 @@ ScriptedImporter:
     uvTransform: {x: 432, y: 106}
   - name: Dogge_Frame_1
     originalName: 
-    pivot: {x: 0.4074074, y: -0.075}
+    pivot: {x: 0.4074074, y: 0.725}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -163,7 +178,7 @@ ScriptedImporter:
     uvTransform: {x: 319, y: 58}
   - name: Dogge_Frame_2
     originalName: 
-    pivot: {x: 0.4181818, y: -0.075}
+    pivot: {x: 0.4181818, y: 0.725}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -183,7 +198,7 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 58}
   - name: Dogge_Frame_3
     originalName: 
-    pivot: {x: 0.4074074, y: -0.075}
+    pivot: {x: 0.4074074, y: 0.725}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -203,7 +218,7 @@ ScriptedImporter:
     uvTransform: {x: 381, y: 58}
   - name: Dogge_Frame_4
     originalName: 
-    pivot: {x: 0.4181818, y: -0.081081085}
+    pivot: {x: 0.4181818, y: 0.7837838}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -223,7 +238,7 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 158}
   - name: Dogge_Frame_5
     originalName: 
-    pivot: {x: 0.4074074, y: -0.075}
+    pivot: {x: 0.4074074, y: 0.725}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -243,7 +258,7 @@ ScriptedImporter:
     uvTransform: {x: 443, y: 58}
   - name: Dogge_Frame_6
     originalName: 
-    pivot: {x: 0.4181818, y: -0.075}
+    pivot: {x: 0.4181818, y: 0.725}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -263,7 +278,7 @@ ScriptedImporter:
     uvTransform: {x: 67, y: 58}
   - name: Dogge_Frame_7
     originalName: 
-    pivot: {x: 0.3846154, y: -0.06521739}
+    pivot: {x: 0.3846154, y: 0.6304348}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -283,7 +298,7 @@ ScriptedImporter:
     uvTransform: {x: 131, y: 4}
   - name: Dogge_Frame_8
     originalName: 
-    pivot: {x: 0.37254903, y: -0.06818182}
+    pivot: {x: 0.37254903, y: 0.65909094}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -303,7 +318,7 @@ ScriptedImporter:
     uvTransform: {x: 441, y: 4}
   - name: Dogge_Frame_9
     originalName: 
-    pivot: {x: 0.3846154, y: -0.06818182}
+    pivot: {x: 0.3846154, y: 0.65909094}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -323,7 +338,7 @@ ScriptedImporter:
     uvTransform: {x: 312, y: 4}
   - name: Dogge_Frame_10
     originalName: 
-    pivot: {x: 0.4181818, y: -0.075}
+    pivot: {x: 0.4181818, y: 0.725}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -343,7 +358,7 @@ ScriptedImporter:
     uvTransform: {x: 130, y: 58}
   - name: Dogge_Frame_11
     originalName: 
-    pivot: {x: 0.4074074, y: -0.075}
+    pivot: {x: 0.4074074, y: 0.725}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -363,7 +378,7 @@ ScriptedImporter:
     uvTransform: {x: 62, y: 106}
   - name: Dogge_Frame_13
     originalName: 
-    pivot: {x: 0.4107143, y: -0.29032257}
+    pivot: {x: 0.4107143, y: 0.7419355}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -383,7 +398,7 @@ ScriptedImporter:
     uvTransform: {x: 189, y: 158}
   - name: Dogge_Frame_14
     originalName: 
-    pivot: {x: 0.4074074, y: -0.102564104}
+    pivot: {x: 0.4074074, y: 0.71794873}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -403,7 +418,7 @@ ScriptedImporter:
     uvTransform: {x: 370, y: 106}
   - name: Dogge_Frame_15
     originalName: 
-    pivot: {x: 0.3962264, y: -0.075}
+    pivot: {x: 0.3962264, y: 0.725}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -423,7 +438,7 @@ ScriptedImporter:
     uvTransform: {x: 248, y: 106}
   - name: Dogge_Frame_16
     originalName: 
-    pivot: {x: 0.39999998, y: -0.06818182}
+    pivot: {x: 0.39999998, y: 0.65909094}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -443,7 +458,7 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 106}
   - name: Dogge_Frame_17
     originalName: 
-    pivot: {x: 0.40909094, y: -0.15}
+    pivot: {x: 0.40909094, y: 0.65000004}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -463,7 +478,7 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 203}
   - name: Dogge_Frame_18
     originalName: 
-    pivot: {x: 0.3541667, y: -0.18181819}
+    pivot: {x: 0.3541667, y: 0.7878788}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -483,7 +498,7 @@ ScriptedImporter:
     uvTransform: {x: 316, y: 158}
   - name: Dogge_Frame_19
     originalName: 
-    pivot: {x: 0.375, y: -0.09375}
+    pivot: {x: 0.375, y: 0.90625}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -503,7 +518,7 @@ ScriptedImporter:
     uvTransform: {x: 372, y: 158}
   - name: Dogge_Frame_20
     originalName: 
-    pivot: {x: 0.39215687, y: -0.08571429}
+    pivot: {x: 0.39215687, y: 0.82857144}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -523,7 +538,7 @@ ScriptedImporter:
     uvTransform: {x: 130, y: 158}
   - name: Dogge_Frame_21
     originalName: 
-    pivot: {x: 0.3962264, y: -0.075}
+    pivot: {x: 0.3962264, y: 0.725}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -543,7 +558,7 @@ ScriptedImporter:
     uvTransform: {x: 309, y: 106}
   - name: Dogge_Frame_22
     originalName: 
-    pivot: {x: 0.4181818, y: -0.081081085}
+    pivot: {x: 0.4181818, y: 0.7837838}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -563,7 +578,7 @@ ScriptedImporter:
     uvTransform: {x: 67, y: 158}
   - name: Dogge_Frame_23
     originalName: 
-    pivot: {x: 0.4074074, y: -0.075}
+    pivot: {x: 0.4074074, y: 0.725}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -583,7 +598,7 @@ ScriptedImporter:
     uvTransform: {x: 124, y: 106}
   - name: Dogge_Frame_24
     originalName: 
-    pivot: {x: 0.4181818, y: -0.075}
+    pivot: {x: 0.4181818, y: 0.725}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -603,7 +618,7 @@ ScriptedImporter:
     uvTransform: {x: 193, y: 58}
   - name: Dogge_Frame_25
     originalName: 
-    pivot: {x: 0.3846154, y: -0.06521739}
+    pivot: {x: 0.3846154, y: 0.6304348}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -623,7 +638,7 @@ ScriptedImporter:
     uvTransform: {x: 191, y: 4}
   - name: Dogge_Frame_26
     originalName: 
-    pivot: {x: 0.41509435, y: -0.06666667}
+    pivot: {x: 0.41509435, y: 0.64444447}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -643,7 +658,7 @@ ScriptedImporter:
     uvTransform: {x: 251, y: 4}
   - name: Dogge_Frame_27
     originalName: 
-    pivot: {x: 0.43636364, y: -0.06521739}
+    pivot: {x: 0.43636364, y: 0.6304348}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -663,7 +678,7 @@ ScriptedImporter:
     uvTransform: {x: 68, y: 4}
   - name: Dogge_Frame_28
     originalName: 
-    pivot: {x: 0.4464286, y: -0.06521739}
+    pivot: {x: 0.4464286, y: 0.6304348}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -683,7 +698,7 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 4}
   - name: Dogge_Frame_29
     originalName: 
-    pivot: {x: 0.49180326, y: -0.081081085}
+    pivot: {x: 0.49180326, y: 0.7837838}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -703,7 +718,7 @@ ScriptedImporter:
     uvTransform: {x: 372, y: 4}
   - name: Dogge_Frame_30
     originalName: 
-    pivot: {x: 0.4181818, y: -0.075}
+    pivot: {x: 0.4181818, y: 0.725}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -723,7 +738,7 @@ ScriptedImporter:
     uvTransform: {x: 256, y: 58}
   - name: Dogge_Frame_31
     originalName: 
-    pivot: {x: 0.4074074, y: -0.075}
+    pivot: {x: 0.4074074, y: 0.725}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -743,7 +758,7 @@ ScriptedImporter:
     uvTransform: {x: 186, y: 106}
   - name: Dogge_Frame_12
     originalName: 
-    pivot: {x: 0.4181818, y: -0.10344827}
+    pivot: {x: 0.4181818, y: 1}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -1060,7 +1075,55 @@ ScriptedImporter:
       spriteId: 3298d9053b984cc429ceaba62faac7ac
     linkedCells: []
     parentIndex: -1
-  platformSettings: []
+  platformSettings:
+  - name: DefaultTexturePlatform
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Standalone
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Server
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: WebGL
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
   generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 

@@ -2,7 +2,37 @@ fileFormatVersion: 2
 guid: 62f81e1ef5b95b74eacb05d82a97dc30
 ScriptedImporter:
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: Attack 1
+    second: {fileID: 7400000, guid: 1a2eb69d54076b84a9c1b295c96cb27d, type: 2}
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: Attack2
+    second: {fileID: 7400000, guid: d4d28e5bc4803af409f3774238a2e945, type: 2}
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: Attack3
+    second: {fileID: 7400000, guid: 23817b17e1cc1f74798c7254438f343b, type: 2}
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: Block
+    second: {fileID: 7400000, guid: e835fc5a1a17b514d9dc4ede57f37b88, type: 2}
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: Idle
+    second: {fileID: 7400000, guid: 7716615921344cb42be26fd6443a0ccb, type: 2}
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: Move
+    second: {fileID: 7400000, guid: 2cf660d31068ddf4783df1dbc8107d29, type: 2}
   serializedVersion: 2
   userData: 
   assetBundleName: 
@@ -35,7 +65,7 @@ ScriptedImporter:
     spriteMeshType: 1
     alignment: 0
     spritePivot: {x: 0.5, y: 0.5}
-    spritePixelsToUnits: 100
+    spritePixelsToUnits: 32
     spriteBorder: {x: 0, y: 0, z: 0, w: 0}
     spriteGenerateFallbackPhysicsShape: 0
     generateCubemap: 6
@@ -75,7 +105,7 @@ ScriptedImporter:
     importHiddenLayers: 0
     layerImportMode: 1
     defaultPivotSpace: 0
-    defaultPivotAlignment: 7
+    defaultPivotAlignment: 0
     customPivotPosition: {x: 0.5, y: 0.5}
     mosaicPadding: 4
     spritePadding: 0
@@ -88,7 +118,7 @@ ScriptedImporter:
     importHiddenLayers: 0
     layerImportMode: 1
     defaultPivotSpace: 0
-    defaultPivotAlignment: 7
+    defaultPivotAlignment: 0
     customPivotPosition: {x: 0.5, y: 0.5}
     mosaicPadding: 4
     spritePadding: 0
@@ -97,7 +127,7 @@ ScriptedImporter:
     addSortingGroup: 1
     addShadowCasters: 0
   importFileNodeState: 1
-  platformSettingsDirtyTick: 0
+  platformSettingsDirtyTick: 638579798331621744
   textureAssetName: 
   singleSpriteImportData:
   - name: 
@@ -123,7 +153,7 @@ ScriptedImporter:
   animatedSpriteImportData:
   - name: Boss_Frame_0
     originalName: 
-    pivot: {x: 0.17857142, y: -0.008403361}
+    pivot: {x: 0.005102023, y: 0.6806723}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -143,7 +173,7 @@ ScriptedImporter:
     uvTransform: {x: 597, y: 327}
   - name: Boss_Frame_1
     originalName: 
-    pivot: {x: 0.17857142, y: -0.00862069}
+    pivot: {x: 0.005102023, y: 0.69827586}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -163,7 +193,7 @@ ScriptedImporter:
     uvTransform: {x: 921, y: 327}
   - name: Boss_Frame_2
     originalName: 
-    pivot: {x: 0.1736842, y: -0.035714284}
+    pivot: {x: -0.0052631395, y: 0.6964286}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -183,7 +213,7 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 716}
   - name: Boss_Frame_3
     originalName: 
-    pivot: {x: 0.27142856, y: -0.018348623}
+    pivot: {x: 0.10952379, y: 0.73394495}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -203,7 +233,7 @@ ScriptedImporter:
     uvTransform: {x: 808, y: 327}
   - name: Boss_Frame_4
     originalName: 
-    pivot: {x: 0.19072165, y: -0.026548672}
+    pivot: {x: 0.01546393, y: 0.69911504}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -223,7 +253,7 @@ ScriptedImporter:
     uvTransform: {x: 415, y: 472}
   - name: Boss_Frame_5
     originalName: 
-    pivot: {x: 0.15591395, y: -0.025862068}
+    pivot: {x: -0.026881764, y: 0.68103445}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -243,7 +273,7 @@ ScriptedImporter:
     uvTransform: {x: 520, y: 472}
   - name: Boss_Frame_6
     originalName: 
-    pivot: {x: 0.1736842, y: -0.026548672}
+    pivot: {x: -0.0052631395, y: 0.69911504}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -263,7 +293,7 @@ ScriptedImporter:
     uvTransform: {x: 621, y: 472}
   - name: Boss_Frame_7
     originalName: 
-    pivot: {x: 0.21938775, y: -0.018348623}
+    pivot: {x: 0.045918338, y: 0.73394495}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -283,7 +313,7 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 599}
   - name: Boss_Frame_8
     originalName: 
-    pivot: {x: 0.1736842, y: -0.054545455}
+    pivot: {x: -0.0052631395, y: 0.6909091}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -303,7 +333,7 @@ ScriptedImporter:
     uvTransform: {x: 107, y: 716}
   - name: Boss_Frame_9
     originalName: 
-    pivot: {x: 0.15591395, y: -0.04385965}
+    pivot: {x: -0.026881764, y: 0.6754386}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -323,7 +353,7 @@ ScriptedImporter:
     uvTransform: {x: 926, y: 472}
   - name: Boss_Frame_10
     originalName: 
-    pivot: {x: 0.17010309, y: -0.008403361}
+    pivot: {x: -0.0051546213, y: 0.6806723}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -343,7 +373,7 @@ ScriptedImporter:
     uvTransform: {x: 703, y: 327}
   - name: Boss_Frame_11
     originalName: 
-    pivot: {x: 0.14705886, y: -0.008474575}
+    pivot: {x: -0.05294114, y: 0.68644065}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -363,7 +393,7 @@ ScriptedImporter:
     uvTransform: {x: 931, y: 4}
   - name: Boss_Frame_12
     originalName: 
-    pivot: {x: 0.41549292, y: -0.008474575}
+    pivot: {x: 0.17605636, y: 0.68644065}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -383,7 +413,7 @@ ScriptedImporter:
     uvTransform: {x: 85, y: 836}
   - name: Boss_Frame_13
     originalName: 
-    pivot: {x: 0.34931508, y: -0.008474575}
+    pivot: {x: 0.11643839, y: 0.68644065}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -403,7 +433,7 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 836}
   - name: Boss_Frame_14
     originalName: 
-    pivot: {x: 0.33098593, y: -0.008474575}
+    pivot: {x: 0.09154934, y: 0.68644065}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -423,7 +453,7 @@ ScriptedImporter:
     uvTransform: {x: 164, y: 836}
   - name: Boss_Frame_15
     originalName: 
-    pivot: {x: 0.15263155, y: -0.008403361}
+    pivot: {x: -0.026315833, y: 0.6806723}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -443,7 +473,7 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 472}
   - name: Boss_Frame_16
     originalName: 
-    pivot: {x: 0.19531253, y: 0}
+    pivot: {x: -0.070312455, y: 0.68907565}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -463,7 +493,7 @@ ScriptedImporter:
     uvTransform: {x: 243, y: 836}
   - name: Boss_Frame_17
     originalName: 
-    pivot: {x: 0.6238938, y: -0.008547008}
+    pivot: {x: 0.47345132, y: 0.6923077}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -483,7 +513,7 @@ ScriptedImporter:
     uvTransform: {x: 895, y: 158}
   - name: Boss_Frame_18
     originalName: 
-    pivot: {x: 0.5969388, y: -0.006849315}
+    pivot: {x: 0.4234694, y: 0.55479455}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -503,7 +533,7 @@ ScriptedImporter:
     uvTransform: {x: 420, y: 158}
   - name: Boss_Frame_19
     originalName: 
-    pivot: {x: 0.5619469, y: -0.00621118}
+    pivot: {x: 0.41150442, y: 0.5031056}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -523,7 +553,7 @@ ScriptedImporter:
     uvTransform: {x: 143, y: 158}
   - name: Boss_Frame_20
     originalName: 
-    pivot: {x: 0.5939597, y: -0.006849315}
+    pivot: {x: 0.47986576, y: 0.55479455}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -543,7 +573,7 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 4}
   - name: Boss_Frame_21
     originalName: 
-    pivot: {x: 0.45212764, y: 0}
+    pivot: {x: 0.2712766, y: 0.68907565}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -563,7 +593,7 @@ ScriptedImporter:
     uvTransform: {x: 313, y: 472}
   - name: Boss_Frame_22
     originalName: 
-    pivot: {x: 0.15263155, y: -0.008403361}
+    pivot: {x: -0.026315833, y: 0.6806723}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -583,7 +613,7 @@ ScriptedImporter:
     uvTransform: {x: 107, y: 472}
   - name: Boss_Frame_23
     originalName: 
-    pivot: {x: 0.16336632, y: -0.0072992695}
+    pivot: {x: -0.0049504777, y: 0.5912409}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -603,7 +633,7 @@ ScriptedImporter:
     uvTransform: {x: 786, y: 158}
   - name: Boss_Frame_24
     originalName: 
-    pivot: {x: 0.15566036, y: -0.008403361}
+    pivot: {x: -0.004716965, y: 0.6806723}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -623,7 +653,7 @@ ScriptedImporter:
     uvTransform: {x: 360, y: 327}
   - name: Boss_Frame_25
     originalName: 
-    pivot: {x: 0.11979169, y: -0.0072992695}
+    pivot: {x: -0.0572916, y: 0.5912409}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -643,7 +673,7 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 327}
   - name: Boss_Frame_26
     originalName: 
-    pivot: {x: 0.4847328, y: -0.00621118}
+    pivot: {x: 0.3549618, y: 0.5031056}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -663,7 +693,7 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 158}
   - name: Boss_Frame_27
     originalName: 
-    pivot: {x: 0.6413044, y: -0.006849315}
+    pivot: {x: 0.51811594, y: 0.55479455}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -683,7 +713,7 @@ ScriptedImporter:
     uvTransform: {x: 161, y: 4}
   - name: Boss_Frame_28
     originalName: 
-    pivot: {x: 0.59000003, y: -0.0076923077}
+    pivot: {x: 0.47666666, y: 0.623077}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -703,7 +733,7 @@ ScriptedImporter:
     uvTransform: {x: 453, y: 4}
   - name: Boss_Frame_29
     originalName: 
-    pivot: {x: 0.28494626, y: 0}
+    pivot: {x: 0.10215052, y: 0.71304345}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -723,7 +753,7 @@ ScriptedImporter:
     uvTransform: {x: 724, y: 472}
   - name: Boss_Frame_30
     originalName: 
-    pivot: {x: 0.31052628, y: -0.008403361}
+    pivot: {x: 0.13157895, y: 0.6806723}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -743,7 +773,7 @@ ScriptedImporter:
     uvTransform: {x: 210, y: 472}
   - name: Boss_Frame_31
     originalName: 
-    pivot: {x: 0.28494626, y: 0}
+    pivot: {x: 0.10215052, y: 0.71304345}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -763,7 +793,7 @@ ScriptedImporter:
     uvTransform: {x: 825, y: 472}
   - name: Boss_Frame_32
     originalName: 
-    pivot: {x: 0.76086956, y: -0.0091743115}
+    pivot: {x: 0.6130435, y: 0.7431193}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -783,7 +813,7 @@ ScriptedImporter:
     uvTransform: {x: 474, y: 327}
   - name: Boss_Frame_33
     originalName: 
-    pivot: {x: 0.29237288, y: -0.018018017}
+    pivot: {x: 0.118644066, y: 0.7207207}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -803,7 +833,7 @@ ScriptedImporter:
     uvTransform: {x: 108, y: 327}
   - name: Boss_Frame_34
     originalName: 
-    pivot: {x: 0.71721315, y: -0.00877193}
+    pivot: {x: 0.5778688, y: 0.71052635}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -823,7 +853,7 @@ ScriptedImporter:
     uvTransform: {x: 526, y: 158}
   - name: Boss_Frame_35
     originalName: 
-    pivot: {x: 0.4358108, y: -0.018018017}
+    pivot: {x: 0.30405408, y: 0.7207207}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -843,7 +873,7 @@ ScriptedImporter:
     uvTransform: {x: 264, y: 158}
   - name: Boss_Frame_36
     originalName: 
-    pivot: {x: 0.5681818, y: -0.0091743115}
+    pivot: {x: 0.45779216, y: 0.7431193}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -863,7 +893,7 @@ ScriptedImporter:
     uvTransform: {x: 769, y: 4}
   - name: Boss_Frame_37
     originalName: 
-    pivot: {x: 0.29237288, y: -0.018018017}
+    pivot: {x: 0.1355932, y: 0.7207207}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -883,7 +913,7 @@ ScriptedImporter:
     uvTransform: {x: 234, y: 327}
   - name: Boss_Frame_38
     originalName: 
-    pivot: {x: 0.71721315, y: -0.00877193}
+    pivot: {x: 0.5778688, y: 0.71052635}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -903,7 +933,7 @@ ScriptedImporter:
     uvTransform: {x: 656, y: 158}
   - name: Boss_Frame_39
     originalName: 
-    pivot: {x: 0.6413044, y: -0.006849315}
+    pivot: {x: 0.634058, y: 0.55479455}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -923,7 +953,7 @@ ScriptedImporter:
     uvTransform: {x: 307, y: 4}
   - name: Boss_Frame_40
     originalName: 
-    pivot: {x: 0.59000003, y: -0.0076923077}
+    pivot: {x: 0.5833333, y: 0.623077}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -954,7 +984,7 @@ ScriptedImporter:
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
-        x: 72
+        x: 106
         y: 1
         width: 98
         height: 119
@@ -963,7 +993,7 @@ ScriptedImporter:
       frameIndex: 1
       additiveSortOrder: 0
       cellRect:
-        x: 72
+        x: 106
         y: 1
         width: 98
         height: 116
@@ -972,7 +1002,7 @@ ScriptedImporter:
       frameIndex: 2
       additiveSortOrder: 0
       cellRect:
-        x: 73
+        x: 107
         y: 4
         width: 95
         height: 112
@@ -981,7 +1011,7 @@ ScriptedImporter:
       frameIndex: 3
       additiveSortOrder: 0
       cellRect:
-        x: 61
+        x: 95
         y: 2
         width: 105
         height: 109
@@ -990,7 +1020,7 @@ ScriptedImporter:
       frameIndex: 4
       additiveSortOrder: 0
       cellRect:
-        x: 71
+        x: 105
         y: 3
         width: 97
         height: 113
@@ -999,7 +1029,7 @@ ScriptedImporter:
       frameIndex: 5
       additiveSortOrder: 0
       cellRect:
-        x: 75
+        x: 109
         y: 3
         width: 93
         height: 116
@@ -1008,7 +1038,7 @@ ScriptedImporter:
       frameIndex: 6
       additiveSortOrder: 0
       cellRect:
-        x: 73
+        x: 107
         y: 3
         width: 95
         height: 113
@@ -1017,7 +1047,7 @@ ScriptedImporter:
       frameIndex: 7
       additiveSortOrder: 0
       cellRect:
-        x: 68
+        x: 102
         y: 2
         width: 98
         height: 109
@@ -1026,7 +1056,7 @@ ScriptedImporter:
       frameIndex: 8
       additiveSortOrder: 0
       cellRect:
-        x: 73
+        x: 107
         y: 6
         width: 95
         height: 110
@@ -1035,7 +1065,7 @@ ScriptedImporter:
       frameIndex: 9
       additiveSortOrder: 0
       cellRect:
-        x: 75
+        x: 109
         y: 5
         width: 93
         height: 114
@@ -1044,7 +1074,7 @@ ScriptedImporter:
       frameIndex: 10
       additiveSortOrder: 0
       cellRect:
-        x: 73
+        x: 107
         y: 1
         width: 97
         height: 119
@@ -1053,7 +1083,7 @@ ScriptedImporter:
       frameIndex: 11
       additiveSortOrder: 0
       cellRect:
-        x: 77
+        x: 111
         y: 1
         width: 85
         height: 118
@@ -1062,7 +1092,7 @@ ScriptedImporter:
       frameIndex: 12
       additiveSortOrder: 0
       cellRect:
-        x: 60
+        x: 94
         y: 1
         width: 71
         height: 118
@@ -1071,7 +1101,7 @@ ScriptedImporter:
       frameIndex: 13
       additiveSortOrder: 0
       cellRect:
-        x: 64
+        x: 98
         y: 1
         width: 73
         height: 118
@@ -1080,7 +1110,7 @@ ScriptedImporter:
       frameIndex: 14
       additiveSortOrder: 0
       cellRect:
-        x: 66
+        x: 100
         y: 1
         width: 71
         height: 118
@@ -1089,7 +1119,7 @@ ScriptedImporter:
       frameIndex: 15
       additiveSortOrder: 0
       cellRect:
-        x: 75
+        x: 109
         y: 1
         width: 95
         height: 119
@@ -1098,7 +1128,7 @@ ScriptedImporter:
       frameIndex: 16
       additiveSortOrder: 0
       cellRect:
-        x: 77
+        x: 111
         y: 0
         width: 64
         height: 119
@@ -1107,7 +1137,7 @@ ScriptedImporter:
       frameIndex: 17
       additiveSortOrder: 0
       cellRect:
-        x: 19
+        x: 53
         y: 1
         width: 113
         height: 117
@@ -1116,7 +1146,7 @@ ScriptedImporter:
       frameIndex: 18
       additiveSortOrder: 0
       cellRect:
-        x: 31
+        x: 65
         y: 1
         width: 98
         height: 146
@@ -1125,7 +1155,7 @@ ScriptedImporter:
       frameIndex: 19
       additiveSortOrder: 0
       cellRect:
-        x: 26
+        x: 60
         y: 1
         width: 113
         height: 161
@@ -1134,7 +1164,7 @@ ScriptedImporter:
       frameIndex: 20
       additiveSortOrder: 0
       cellRect:
-        x: 1
+        x: 35
         y: 1
         width: 149
         height: 146
@@ -1143,7 +1173,7 @@ ScriptedImporter:
       frameIndex: 21
       additiveSortOrder: 0
       cellRect:
-        x: 47
+        x: 81
         y: 0
         width: 94
         height: 119
@@ -1152,7 +1182,7 @@ ScriptedImporter:
       frameIndex: 22
       additiveSortOrder: 0
       cellRect:
-        x: 75
+        x: 109
         y: 1
         width: 95
         height: 119
@@ -1161,7 +1191,7 @@ ScriptedImporter:
       frameIndex: 23
       additiveSortOrder: 0
       cellRect:
-        x: 73
+        x: 107
         y: 1
         width: 101
         height: 137
@@ -1170,7 +1200,7 @@ ScriptedImporter:
       frameIndex: 24
       additiveSortOrder: 0
       cellRect:
-        x: 73
+        x: 107
         y: 1
         width: 106
         height: 119
@@ -1179,7 +1209,7 @@ ScriptedImporter:
       frameIndex: 25
       additiveSortOrder: 0
       cellRect:
-        x: 78
+        x: 112
         y: 1
         width: 96
         height: 137
@@ -1188,7 +1218,7 @@ ScriptedImporter:
       frameIndex: 26
       additiveSortOrder: 0
       cellRect:
-        x: 26
+        x: 60
         y: 1
         width: 131
         height: 161
@@ -1197,7 +1227,7 @@ ScriptedImporter:
       frameIndex: 27
       additiveSortOrder: 0
       cellRect:
-        x: 1
+        x: 35
         y: 1
         width: 138
         height: 146
@@ -1206,7 +1236,7 @@ ScriptedImporter:
       frameIndex: 28
       additiveSortOrder: 0
       cellRect:
-        x: 1
+        x: 35
         y: 1
         width: 150
         height: 130
@@ -1215,7 +1245,7 @@ ScriptedImporter:
       frameIndex: 29
       additiveSortOrder: 0
       cellRect:
-        x: 63
+        x: 97
         y: 0
         width: 93
         height: 115
@@ -1224,7 +1254,7 @@ ScriptedImporter:
       frameIndex: 30
       additiveSortOrder: 0
       cellRect:
-        x: 60
+        x: 94
         y: 1
         width: 95
         height: 119
@@ -1233,7 +1263,7 @@ ScriptedImporter:
       frameIndex: 31
       additiveSortOrder: 0
       cellRect:
-        x: 63
+        x: 97
         y: 0
         width: 93
         height: 115
@@ -1242,7 +1272,7 @@ ScriptedImporter:
       frameIndex: 32
       additiveSortOrder: 0
       cellRect:
-        x: 2
+        x: 36
         y: 1
         width: 115
         height: 109
@@ -1251,7 +1281,7 @@ ScriptedImporter:
       frameIndex: 33
       additiveSortOrder: 0
       cellRect:
-        x: 55
+        x: 98
         y: 2
         width: 118
         height: 111
@@ -1260,7 +1290,7 @@ ScriptedImporter:
       frameIndex: 34
       additiveSortOrder: 0
       cellRect:
-        x: 2
+        x: 36
         y: 1
         width: 122
         height: 114
@@ -1269,7 +1299,7 @@ ScriptedImporter:
       frameIndex: 35
       additiveSortOrder: 0
       cellRect:
-        x: 25
+        x: 67
         y: 2
         width: 148
         height: 111
@@ -1278,7 +1308,7 @@ ScriptedImporter:
       frameIndex: 36
       additiveSortOrder: 0
       cellRect:
-        x: 2
+        x: 36
         y: 1
         width: 154
         height: 109
@@ -1287,7 +1317,7 @@ ScriptedImporter:
       frameIndex: 37
       additiveSortOrder: 0
       cellRect:
-        x: 55
+        x: 96
         y: 2
         width: 118
         height: 111
@@ -1296,7 +1326,7 @@ ScriptedImporter:
       frameIndex: 38
       additiveSortOrder: 0
       cellRect:
-        x: 2
+        x: 36
         y: 1
         width: 122
         height: 114
@@ -1305,7 +1335,7 @@ ScriptedImporter:
       frameIndex: 39
       additiveSortOrder: 0
       cellRect:
-        x: 1
+        x: 19
         y: 1
         width: 138
         height: 146
@@ -1314,15 +1344,63 @@ ScriptedImporter:
       frameIndex: 40
       additiveSortOrder: 0
       cellRect:
-        x: 1
+        x: 19
         y: 1
         width: 150
         height: 130
       spriteId: a752322df823d7a48865b9ba3d7d0fc1
     linkedCells: []
     parentIndex: -1
-  platformSettings: []
+  platformSettings:
+  - name: DefaultTexturePlatform
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Standalone
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Server
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: WebGL
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
   generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 
-  canvasSize: {x: 179, y: 164}
+  canvasSize: {x: 224, y: 164}

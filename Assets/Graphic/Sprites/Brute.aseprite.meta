@@ -2,7 +2,22 @@ fileFormatVersion: 2
 guid: 25fc5466b72bc6b49bc2d0a6a7b1da25
 ScriptedImporter:
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: Attack
+    second: {fileID: 7400000, guid: 6965e4b97fe85b74f934bb949d75092b, type: 2}
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: Idle
+    second: {fileID: 7400000, guid: 60b8c6ac65bd27a4fa2740645ea6e115, type: 2}
+  - first:
+      type: UnityEngine:AnimationClip
+      assembly: UnityEngine.AnimationModule
+      name: Move
+    second: {fileID: 7400000, guid: 4c8aee8ea65d69e4da9f58936ece94cd, type: 2}
   serializedVersion: 2
   userData: 
   assetBundleName: 
@@ -35,7 +50,7 @@ ScriptedImporter:
     spriteMeshType: 1
     alignment: 0
     spritePivot: {x: 0.5, y: 0.5}
-    spritePixelsToUnits: 100
+    spritePixelsToUnits: 32
     spriteBorder: {x: 0, y: 0, z: 0, w: 0}
     spriteGenerateFallbackPhysicsShape: 0
     generateCubemap: 6
@@ -75,7 +90,7 @@ ScriptedImporter:
     importHiddenLayers: 0
     layerImportMode: 1
     defaultPivotSpace: 0
-    defaultPivotAlignment: 7
+    defaultPivotAlignment: 0
     customPivotPosition: {x: 0.5, y: 0.5}
     mosaicPadding: 4
     spritePadding: 0
@@ -88,7 +103,7 @@ ScriptedImporter:
     importHiddenLayers: 0
     layerImportMode: 1
     defaultPivotSpace: 0
-    defaultPivotAlignment: 7
+    defaultPivotAlignment: 0
     customPivotPosition: {x: 0.5, y: 0.5}
     mosaicPadding: 4
     spritePadding: 0
@@ -97,7 +112,7 @@ ScriptedImporter:
     addSortingGroup: 1
     addShadowCasters: 0
   importFileNodeState: 1
-  platformSettingsDirtyTick: 0
+  platformSettingsDirtyTick: 638579798181736970
   textureAssetName: 
   singleSpriteImportData:
   - name: 
@@ -123,7 +138,7 @@ ScriptedImporter:
   animatedSpriteImportData:
   - name: Brute_Frame_0
     originalName: 
-    pivot: {x: 0.48305088, y: 0.045454547}
+    pivot: {x: 0.48305088, y: 0.6515152}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -143,7 +158,7 @@ ScriptedImporter:
     uvTransform: {x: 139, y: 163}
   - name: Brute_Frame_1
     originalName: 
-    pivot: {x: 0.48305088, y: 0.04477612}
+    pivot: {x: 0.48305088, y: 0.64179105}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -163,7 +178,7 @@ ScriptedImporter:
     uvTransform: {x: 72, y: 163}
   - name: Brute_Frame_2
     originalName: 
-    pivot: {x: 0.45238096, y: 0.04477612}
+    pivot: {x: 0.45238096, y: 0.64179105}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -183,7 +198,7 @@ ScriptedImporter:
     uvTransform: {x: 221, y: 4}
   - name: Brute_Frame_3
     originalName: 
-    pivot: {x: 0.47500002, y: 0.04477612}
+    pivot: {x: 0.47500002, y: 0.64179105}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -203,7 +218,7 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 163}
   - name: Brute_Frame_4
     originalName: 
-    pivot: {x: 0.48305088, y: 0.045454547}
+    pivot: {x: 0.48305088, y: 0.6515152}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -223,7 +238,7 @@ ScriptedImporter:
     uvTransform: {x: 206, y: 163}
   - name: Brute_Frame_5
     originalName: 
-    pivot: {x: 0.4741379, y: 0.046875}
+    pivot: {x: 0.4741379, y: 0.671875}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -243,7 +258,7 @@ ScriptedImporter:
     uvTransform: {x: 143, y: 90}
   - name: Brute_Frame_6
     originalName: 
-    pivot: {x: 0.48360658, y: 0.04477612}
+    pivot: {x: 0.48360658, y: 0.64179105}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -263,7 +278,7 @@ ScriptedImporter:
     uvTransform: {x: 362, y: 4}
   - name: Brute_Frame_7
     originalName: 
-    pivot: {x: 0.54347825, y: 0.038461544}
+    pivot: {x: 0.54347825, y: 0.5512821}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -283,7 +298,7 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 4}
   - name: Brute_Frame_8
     originalName: 
-    pivot: {x: 0.5153846, y: 0.04054054}
+    pivot: {x: 0.5153846, y: 0.5810811}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -303,7 +318,7 @@ ScriptedImporter:
     uvTransform: {x: 81, y: 4}
   - name: Brute_Frame_9
     originalName: 
-    pivot: {x: 0.4661017, y: 0.04054054}
+    pivot: {x: 0.4661017, y: 0.5810811}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -323,7 +338,7 @@ ScriptedImporter:
     uvTransform: {x: 154, y: 4}
   - name: Brute_Frame_10
     originalName: 
-    pivot: {x: 0.47580644, y: 0.04615385}
+    pivot: {x: 0.47580644, y: 0.66153854}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -343,7 +358,7 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 90}
   - name: Brute_Frame_11
     originalName: 
-    pivot: {x: 0.5086207, y: 0.046875}
+    pivot: {x: 0.5086207, y: 0.671875}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -363,7 +378,7 @@ ScriptedImporter:
     uvTransform: {x: 209, y: 90}
   - name: Brute_Frame_12
     originalName: 
-    pivot: {x: 0.4741379, y: 0.05714286}
+    pivot: {x: 0.4741379, y: 0.62857145}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -383,7 +398,7 @@ ScriptedImporter:
     uvTransform: {x: 431, y: 4}
   - name: Brute_Frame_13
     originalName: 
-    pivot: {x: 0.4661017, y: 0}
+    pivot: {x: 0.4661017, y: 0.6060606}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -403,7 +418,7 @@ ScriptedImporter:
     uvTransform: {x: 273, y: 163}
   - name: Brute_Frame_14
     originalName: 
-    pivot: {x: 0.45967743, y: 0.030303031}
+    pivot: {x: 0.45967743, y: 0.6363636}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -423,7 +438,7 @@ ScriptedImporter:
     uvTransform: {x: 292, y: 4}
   - name: Brute_Frame_15
     originalName: 
-    pivot: {x: 0.46721315, y: 0.015384616}
+    pivot: {x: 0.46721315, y: 0.63076925}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -443,7 +458,7 @@ ScriptedImporter:
     uvTransform: {x: 74, y: 90}
   - name: Brute_Frame_16
     originalName: 
-    pivot: {x: 0.4741379, y: 0}
+    pivot: {x: 0.4741379, y: 0.6060606}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -463,7 +478,7 @@ ScriptedImporter:
     uvTransform: {x: 340, y: 163}
   - name: Brute_Frame_17
     originalName: 
-    pivot: {x: 0.49137932, y: 0}
+    pivot: {x: 0.49137932, y: 0.61538464}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -654,7 +669,55 @@ ScriptedImporter:
       spriteId: 51dd15098c41e9f4799e6d628e3ff339
     linkedCells: []
     parentIndex: -1
-  platformSettings: []
+  platformSettings:
+  - name: DefaultTexturePlatform
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Standalone
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Server
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: WebGL
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
   generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 
