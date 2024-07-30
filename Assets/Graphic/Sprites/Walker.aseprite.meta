@@ -35,7 +35,7 @@ ScriptedImporter:
     spriteMeshType: 1
     alignment: 0
     spritePivot: {x: 0.5, y: 0.5}
-    spritePixelsToUnits: 100
+    spritePixelsToUnits: 28
     spriteBorder: {x: 0, y: 0, z: 0, w: 0}
     spriteGenerateFallbackPhysicsShape: 0
     generateCubemap: 6
@@ -97,7 +97,7 @@ ScriptedImporter:
     addSortingGroup: 1
     addShadowCasters: 0
   importFileNodeState: 1
-  platformSettingsDirtyTick: 0
+  platformSettingsDirtyTick: 638579595517305000
   textureAssetName: 
   singleSpriteImportData:
   - name: 
@@ -123,9 +123,9 @@ ScriptedImporter:
   animatedSpriteImportData:
   - name: Walker_Frame_1
     originalName: 
-    pivot: {x: 0.35714287, y: 0}
+    pivot: {x: 0.45024708, y: 0.57328176}
     alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
+    border: {x: 0, y: 0, z: 3, w: 0}
     rect:
       serializedVersion: 2
       x: 137
@@ -143,7 +143,7 @@ ScriptedImporter:
     uvTransform: {x: 137, y: 61}
   - name: Walker_Frame_2
     originalName: 
-    pivot: {x: 0.35714287, y: 0}
+    pivot: {x: 0.46059254, y: 0.5731535}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -163,7 +163,7 @@ ScriptedImporter:
     uvTransform: {x: 173, y: 4}
   - name: Walker_Frame_4
     originalName: 
-    pivot: {x: 0.41935483, y: 0}
+    pivot: {x: 0.49410567, y: 0.5919103}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -183,7 +183,7 @@ ScriptedImporter:
     uvTransform: {x: 95, y: 114}
   - name: Walker_Frame_5
     originalName: 
-    pivot: {x: 0.47058824, y: 0}
+    pivot: {x: 0.54726297, y: 0.57931644}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -203,7 +203,7 @@ ScriptedImporter:
     uvTransform: {x: 50, y: 60}
   - name: Walker_Frame_6
     originalName: 
-    pivot: {x: 0.5263158, y: 0}
+    pivot: {x: 0.6025417, y: 0.6024891}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -223,7 +223,7 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 4}
   - name: Walker_Frame_7
     originalName: 
-    pivot: {x: 0.5, y: 0}
+    pivot: {x: 0.5425972, y: 0.57931644}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -243,7 +243,7 @@ ScriptedImporter:
     uvTransform: {x: 50, y: 116}
   - name: Walker_Frame_8
     originalName: 
-    pivot: {x: 0.4375, y: 0}
+    pivot: {x: 0.50991464, y: 0.5669906}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -263,9 +263,9 @@ ScriptedImporter:
     uvTransform: {x: 95, y: 59}
   - name: Walker_Frame_9
     originalName: 
-    pivot: {x: 0.5, y: -0.021276595}
+    pivot: {x: 0.55111647, y: 0.58885455}
     alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
+    border: {x: 0, y: 0, z: 2, w: 0}
     rect:
       serializedVersion: 2
       x: 50
@@ -283,7 +283,7 @@ ScriptedImporter:
     uvTransform: {x: 50, y: 172}
   - name: Walker_Frame_10
     originalName: 
-    pivot: {x: 0.5263158, y: -0.020408163}
+    pivot: {x: 0.5949191, y: 0.541174}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -303,7 +303,7 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 62}
   - name: Walker_Frame_11
     originalName: 
-    pivot: {x: 0.47058824, y: -0.021276595}
+    pivot: {x: 0.56430167, y: 0.5703658}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -323,7 +323,7 @@ ScriptedImporter:
     uvTransform: {x: 95, y: 4}
   - name: Walker_Frame_13
     originalName: 
-    pivot: {x: 0.35714287, y: 0}
+    pivot: {x: 0.43990216, y: 0.555178}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -343,7 +343,7 @@ ScriptedImporter:
     uvTransform: {x: 137, y: 117}
   - name: Walker_Frame_14
     originalName: 
-    pivot: {x: 0.35714287, y: 0}
+    pivot: {x: 0.43990272, y: 0.5423387}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -363,7 +363,7 @@ ScriptedImporter:
     uvTransform: {x: 173, y: 59}
   - name: Walker_Frame_15
     originalName: 
-    pivot: {x: 0.5263158, y: 0}
+    pivot: {x: 0.57967395, y: 0.5556709}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -383,9 +383,9 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 119}
   - name: Walker_Frame_16
     originalName: 
-    pivot: {x: 0.5263158, y: 0}
+    pivot: {x: 0.5872965, y: 0.60296196}
     alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
+    border: {x: 0, y: 0, z: 4, w: 0}
     rect:
       serializedVersion: 2
       x: 4
@@ -403,7 +403,7 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 176}
   - name: Walker_Frame_17
     originalName: 
-    pivot: {x: 0.5135135, y: 0}
+    pivot: {x: 0.59962815, y: 0.5551782}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -423,7 +423,7 @@ ScriptedImporter:
     uvTransform: {x: 50, y: 4}
   - name: Walker_Frame_0
     originalName: 
-    pivot: {x: 0.35714287, y: 0}
+    pivot: {x: 0.45024735, y: 0.573405}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -443,7 +443,7 @@ ScriptedImporter:
     uvTransform: {x: 95, y: 168}
   - name: Walker_Frame_3
     originalName: 
-    pivot: {x: 0.35714287, y: 0}
+    pivot: {x: 0.42955726, y: 0.56121284}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -463,7 +463,7 @@ ScriptedImporter:
     uvTransform: {x: 137, y: 173}
   - name: Walker_Frame_12
     originalName: 
-    pivot: {x: 0.35714287, y: 0}
+    pivot: {x: 0.45024708, y: 0.5674936}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -636,7 +636,55 @@ ScriptedImporter:
       spriteId: e0c4fb7fe90a30147b3ebeb3f039ec46
     linkedCells: []
     parentIndex: -1
-  platformSettings: []
+  platformSettings:
+  - name: DefaultTexturePlatform
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Standalone
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Server
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: WebGL
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
   generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 
